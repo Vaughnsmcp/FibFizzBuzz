@@ -7,7 +7,7 @@ function FizzBuzz(value1, value2) {
     if (i % value1 == 0 && i % value2 == 0) {
       returnValue += "FizzBuzz ";
     } else if (i == f1) {
-      returnValue += "FibleIzzleBuzzle  ";
+      returnValue += "FibbleIzzleBuzzle  ";
     } else if (i % value1 == 0) {
       returnValue += "Fizz ";
     } else if (i % value2 == 0) {
