@@ -13,27 +13,26 @@ function FizzBuzz(value1, value2) {
   }
   return returnValue;
 }
-function Fibbonacci (){
- 
-  var f0=0 
-  var f1=1
+function Fibbonacci() {
+  var f0 = 0;
+  var f1 = 1;
   let returnValue = "";
-  for (let i = 2; i <=100; i++) {
-    var v=f0+f1
-    returnValue +=v+" "
+  for (let i = 2; i <= 100; i++) {
+    var v = f0 + f1;
+    returnValue += v + " ";
+    f0=f1
+    f1=v
 
   }
   return returnValue;
-
 }
-
 
 function buzzIt() {
   let output = "";
   let val1 = document.getElementById("Fizzvalue").value;
   let val2 = document.getElementById("Buzzvalue").value;
   // output = FizzBuzz(val1, val2);
-  output = Fibbonacci()
-  
+  output = Fibbonacci();
+
   document.getElementById("results").innerHTML = output;
 }
