@@ -23,7 +23,7 @@ function FizzBuzz(value1, value2) {
   }
   return returnValue;
 }
-function Fibbonacci() {
+function Fibonacci() {
   var f0 = 0;
   var f1 = 1;
   let returnValue = "";
